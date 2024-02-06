@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="aishportfolio.css">
+</head>
+<body>
+    <section class="blog1" id="blog1">
+        <h1><b>Aishita Marri Blog-1</b></h1>
+        <p>IIITH is the best.</p>
+        <div class="actions">
+            <button onclick="toggleLike('blog1')">Like</button>
+            <span id="likeCount_blog1">0</span>
+            <button onclick="commentBlog('blog1')">Comment</button>
+        </div>
+        <div class="comments" id="comments_blog1"></div>
+    </section>
+    <section class="blog2" id="blog2">
+        <h1><b>Aishita Marri Blog-2</b></h1>
+        <p>Education Style in India and US is worlds apart!</p>
+        <div class="actions">
+            <button onclick="toggleLike('blog2')">Like</button>
+            <span id="likeCount_blog2">0</span>
+            <button onclick="commentBlog('blog2')">Comment</button>
+        </div>
+        <div class="comments" id="comments_blog2"></div>
+    </section>
+
+    <script src="aishportfolio.js"></script>
+</body>
+</html>
